@@ -1,0 +1,36 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.6;
+}
+
+.add-account-input,
+.edit-account-input {
+    outline: none;
+}
+
+.add-account-input:focus,
+.edit-account-input:focus {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.view-opt-label,
+.date-label {
+    font-size: 0.8rem;
+}
+
+.edit-account-input {
+    font-size: 1.7rem !important;
+}
+
+.account-actions {
+    visibility: hidden !important;
+}
+
+.account-item:hover .account-actions {
+    visibility: visible !important;
+}
+
+.account-item.editing .account-actions .edit-icon {
+    display: none !important;
+}
